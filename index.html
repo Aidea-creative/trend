@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">HOME</a>
+          <a href="#">BLOG</a>
+          <a href="#">About</a>
+          <a href="#">GIVEAWAY</a>
+          <a href="#">ADVERTS</a>
+          <a href="#">PARTNERS</a>
+          <a href="#">CONTACT US</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer/" onclick="openNav()">&#9776;</span>
+      <hr>
+      <section class="header min-h-full ">
+        <img src="images/trend talk.png" alt="Trendtalk logo" class="animate__heartBeat">
+        <div class="w-full pb-5">
+            <a href="">
+            <div class="whatsapp-btn w-48 bg-black m-auto rounded-xl text-white pl-5 pt-2 pb-2 font-bold"><a href="https://wa.me/message/6IFHKJRNC5UMJ1">Join us on Whatsapp</a></div>
+        </a>
+        </div>
+    </section>
+
+  
+
+</body>
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+</html>
